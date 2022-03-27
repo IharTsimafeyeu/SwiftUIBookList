@@ -5,7 +5,6 @@ struct BookModel: Identifiable {
     var bookImage: String
     var price: String
     var author: String
-    
     let id = UUID().uuidString
 }
 
