@@ -57,13 +57,10 @@
 		3524591927F05C8000F269FB /* SwiftUIBookList */ = {
 			isa = PBXGroup;
 			children = (
-				3524591A27F05C8000F269FB /* SwiftUIBookListApp.swift */,
-				3524591C27F05C8000F269FB /* ContentView.swift */,
+				355E3D1127F20B7B00D005BD /* View */,
+				355E3D1027F20B6F00D005BD /* Model */,
 				3524591E27F05C8200F269FB /* Assets.xcassets */,
 				3524592027F05C8200F269FB /* Preview Content */,
-				3524592827F05CB600F269FB /* BookCell.swift */,
-				3524592A27F05CF000F269FB /* BookModel.swift */,
-				3524592C27F05D1300F269FB /* BookInfoView.swift */,
 			);
 			path = SwiftUIBookList;
 			sourceTree = "<group>";
@@ -74,6 +71,33 @@
 				3524592127F05C8200F269FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		355E3D1027F20B6F00D005BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3524592A27F05CF000F269FB /* BookModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		355E3D1127F20B7B00D005BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3524591A27F05C8000F269FB /* SwiftUIBookListApp.swift */,
+				3524591C27F05C8000F269FB /* ContentView.swift */,
+				3524592C27F05D1300F269FB /* BookInfoView.swift */,
+				355E3D1227F20B8C00D005BD /* ViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		355E3D1227F20B8C00D005BD /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3524592827F05CB600F269FB /* BookCell.swift */,
+			);
+			path = ViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
